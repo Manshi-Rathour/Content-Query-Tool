@@ -1,0 +1,4 @@
+.env
+venv/
+notebooks/retrieval.ipynb
+.ipynb_checkpoints/
