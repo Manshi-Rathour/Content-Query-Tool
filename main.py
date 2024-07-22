@@ -11,6 +11,12 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 load_dotenv()
 
+st.set_page_config(
+        page_title="Article Research Tool",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
+
 st.title("Article Research Tool 📈")
 st.sidebar.title("Article URLs")
 
